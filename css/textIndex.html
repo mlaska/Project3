@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="stylesheet" href="css/ingredients.css">
+</head>
+
+<body>
+
+  <div class="container" > <!-- main container starts -->
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" > 
+        <br>
+        <h1><strong>Recipe Dashboard</strong></h1>
+        <p></p>
+      </div>
+    </div>
+    <!-- updated row to include all gauge charts-->
+    <div class="row justify-content-end">
+      <div class="col-10 col-sm-8">
+        <div id="recipe-name" ></div>
+      </div><br><br>
+      <div class="col-4 col-sm-4">
+          <a id="link" href=""></a> <!-- Not Working -->
+      </div>
+    </div>
+     
+    <div class="row">
+      <div class="col-6 col-sm-3">
+        <div class="well">
+          <h5>Select Recipe </h5>
+          <!-- Moved onchange to the js file...no reason, just liked it there--David -->
+          <!-- <select id="selDataset" onchange="optionChanged(this.value)"></select> -->
+          <select id = "selDataset"></select>
+        </div>
+        <div class="panel panel-info" >
+          <div class="panel-heading" >
+            <h3 class="panel-title"><strong>List of Ingredients</strong></h3>
+          </div>
+          <div id="sample-metadata" class="panel-body" ></div>
+        </div>
+      </div> <br>
+
+      <!-- <div class="row"> -->
+     
+      <div class="col-6 col-sm-4">
+        <div id="pie1"></div> <br> 
+      </div> 
+      <div class="col-6 col-sm-4">
+        <div id="pie2"></div><br>
+      </div> 
+      <div class="w-100"></div>
+      <!-- <div class="row"> -->
+      <div class="col-6 col-sm-4">
+        <div id="pie3" ></div> 
+      </div>
+    
+      <div class="col-6 col-sm-4">
+        <div id="pie4" ></div>
+      </div>  
+    </div>
+      
+  
+      <div class="row">
+        <div class="col-md-3">
+          <div class="panel panel-success" >
+            <div class="panel-heading" >
+              <h3 class="panel-title"><strong>Nutrition Facts (in grams)</strong></h3>
+              <h6>Change the weight(s) to adjust recipe bubble graph</h6>
+            </div><br>
+            <div id="ingredient-metadata" class="panel-body" ></div>
+            <button id="button" type="button" onclick="amountsChanged()"
+           class="btn btn-default myFloat_Right">Submit Updated Amount</button>
+           <br><br><br>
+          </div>
+        </div>
+        <div class="col-md-7">
+            <div id="bubble" ></div>
+          </div>
+        <div class ="col-md-2">
+          <button id="buttons"></button>
+        </div>
+      </div> 
+        <!-- <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-8">
+           <button id="buttons"></button>
+            <!-- <button id="buttons" onclick="graphicChanged(this.value)"></button> -->
+          </div>
+        </div> 
+      
+  </div>
+ 
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./js/ingredient.js"></script>
+  <script src="pie.js"></script>
+  <script src="./js/app.js"></script>
+  
+
+
+</body>
+<footer style="font-size: small; text-align: center"> 
+  Copyright &#169; We are great!. Some Rights Reserved
+  <p>David Blascyk, Michael Laska, Ingris O'Connor, Cindy Pendarvis</p>
+</footer>
+</html>

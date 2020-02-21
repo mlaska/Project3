@@ -1,0 +1,688 @@
+{
+  "recipe": {
+    "uri": "http://www.edamam.com/ontologies/edamam.owl#recipe_4495cbdd038b8342d51ecb463a94dfc0",
+    "label": "Mushroom Lasagna",
+    "image": "https://www.edamam.com/web-img/348/348a79afd37686c2ec0ee5d57afadce8.jpg",
+    "source": "Smitten Kitchen",
+    "url": "http://smittenkitchen.com/2010/10/mushroom-lasagna/",
+    "shareAs": "http://www.edamam.com/recipe/mushroom-lasagna-4495cbdd038b8342d51ecb463a94dfc0/lasagna",
+    "yield": 8.0,
+    "dietLabels": [
+      "Balanced"
+    ],
+    "healthLabels": [
+      "Vegetarian",
+      "Peanut-Free",
+      "Tree-Nut-Free",
+      "Alcohol-Free"
+    ],
+    "cautions": [
+      "Sulfites"
+    ],
+    "ingredientLines": [
+      "Salt",
+      "Olive oil",
+      "3/4 pound dried lasagna noodles",
+      "1 large clove garlic, minced",
+      "4 cups whole milk",
+      "3/4 cup (12 tablespoons or 1 1/2 sticks) unsalted butter, divided",
+      "1/2 cup all-purpose flour",
+      "1 teaspoon freshly ground black pepper",
+      "1 teaspoon ground nutmeg (I used less, because this seemed like a lot)",
+      "1 1/2 pounds cremini or portobello mushrooms",
+      "1 cup freshly grated parmesan"
+    ],
+    "ingredients": [
+      {
+        "text": "Salt",
+        "weight": 13.153396995
+      },
+      {
+        "text": "Olive oil",
+        "weight": 29.814366521999997
+      },
+      {
+        "text": "3/4 pound dried lasagna noodles",
+        "weight": 340.1942775
+      },
+      {
+        "text": "1 large clove garlic, minced",
+        "weight": 5.0
+      },
+      {
+        "text": "4 cups whole milk",
+        "weight": 976.0
+      },
+      {
+        "text": "3/4 cup (12 tablespoons or 1 1/2 sticks) unsalted butter, divided",
+        "weight": 10.649999999999999
+      },
+      {
+        "text": "1/2 cup all-purpose flour",
+        "weight": 62.5
+      },
+      {
+        "text": "1 teaspoon freshly ground black pepper",
+        "weight": 2.3
+      },
+      {
+        "text": "1 teaspoon ground nutmeg (I used less, because this seemed like a lot)",
+        "weight": 2.2
+      },
+      {
+        "text": "1 1/2 pounds cremini or portobello mushrooms",
+        "weight": 680.388555
+      },
+      {
+        "text": "1 cup freshly grated parmesan",
+        "weight": 113.0
+      }
+    ],
+    "calories": 3042.31875167948,
+    "totalWeight": 2230.062163433093,
+    "totalTime": 0.0,
+    "totalNutrients": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 3042.31875167948,
+        "unit": "kcal"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 108.39007505474999,
+        "unit": "g"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 48.38775201103276,
+        "unit": "g"
+      },
+      "FATRN": {
+        "label": "Trans",
+        "quantity": 0.37632254219999994,
+        "unit": "g"
+      },
+      "FAMS": {
+        "label": "Monounsaturated",
+        "quantity": 41.26923838364142,
+        "unit": "g"
+      },
+      "FAPU": {
+        "label": "Polyunsaturated",
+        "quantity": 9.02359462356006,
+        "unit": "g"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 382.74907408775005,
+        "unit": "g"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 22.563268095,
+        "unit": "g"
+      },
+      "SUGAR": {
+        "label": "Sugars",
+        "quantity": 76.59054108424999,
+        "unit": "g"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 137.0912572965,
+        "unit": "g"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 197.33749999999998,
+        "unit": "mg"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 5167.326320381681,
+        "unit": "mg"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 2570.092190048882,
+        "unit": "mg"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 350.87511671911096,
+        "unit": "mg"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 4756.214919843108,
+        "unit": "mg"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 11.221879963079807,
+        "unit": "mg"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 15.70926861866109,
+        "unit": "mg"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 3067.872823875,
+        "unit": "mg"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 756.4469999999999,
+        "unit": "\u00b5g"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 1.6260000000000001,
+        "unit": "mg"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 1.7118875972,
+        "unit": "mg"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 3.4364866880000005,
+        "unit": "mg"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 41.3191743792,
+        "unit": "mg"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 2.0440234354499998,
+        "unit": "mg"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 492.8612653500001,
+        "unit": "\u00b5g"
+      },
+      "FOLFD": {
+        "label": "Folate (food)",
+        "quantity": 329.11126535,
+        "unit": "\u00b5g"
+      },
+      "FOLAC": {
+        "label": "Folic acid",
+        "quantity": 96.25,
+        "unit": "\u00b5g"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 6.106299277500001,
+        "unit": "\u00b5g"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 593.6588555000001,
+        "unit": "IU"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 6.139203012156999,
+        "unit": "mg"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 27.920542923744,
+        "unit": "\u00b5g"
+      },
+      "WATER": {
+        "label": "Water",
+        "quantity": 1571.0447701523221,
+        "unit": "g"
+      }
+    },
+    "totalDaily": {
+      "ENERC_KCAL": {
+        "label": "Energy",
+        "quantity": 152.11593758397402,
+        "unit": "%"
+      },
+      "FAT": {
+        "label": "Fat",
+        "quantity": 166.75396162269226,
+        "unit": "%"
+      },
+      "FASAT": {
+        "label": "Saturated",
+        "quantity": 241.9387600551638,
+        "unit": "%"
+      },
+      "CHOCDF": {
+        "label": "Carbs",
+        "quantity": 127.58302469591668,
+        "unit": "%"
+      },
+      "FIBTG": {
+        "label": "Fiber",
+        "quantity": 90.25307238,
+        "unit": "%"
+      },
+      "PROCNT": {
+        "label": "Protein",
+        "quantity": 274.182514593,
+        "unit": "%"
+      },
+      "CHOLE": {
+        "label": "Cholesterol",
+        "quantity": 65.77916666666665,
+        "unit": "%"
+      },
+      "NA": {
+        "label": "Sodium",
+        "quantity": 215.30526334923672,
+        "unit": "%"
+      },
+      "CA": {
+        "label": "Calcium",
+        "quantity": 257.0092190048882,
+        "unit": "%"
+      },
+      "MG": {
+        "label": "Magnesium",
+        "quantity": 83.54169445693118,
+        "unit": "%"
+      },
+      "K": {
+        "label": "Potassium",
+        "quantity": 101.19606212432144,
+        "unit": "%"
+      },
+      "FE": {
+        "label": "Iron",
+        "quantity": 62.343777572665594,
+        "unit": "%"
+      },
+      "ZN": {
+        "label": "Zinc",
+        "quantity": 142.811532896919,
+        "unit": "%"
+      },
+      "P": {
+        "label": "Phosphorus",
+        "quantity": 438.26754626785714,
+        "unit": "%"
+      },
+      "VITA_RAE": {
+        "label": "Vitamin A",
+        "quantity": 84.04966666666665,
+        "unit": "%"
+      },
+      "VITC": {
+        "label": "Vitamin C",
+        "quantity": 1.8066666666666669,
+        "unit": "%"
+      },
+      "THIA": {
+        "label": "Thiamin (B1)",
+        "quantity": 142.65729976666668,
+        "unit": "%"
+      },
+      "RIBF": {
+        "label": "Riboflavin (B2)",
+        "quantity": 264.3451298461539,
+        "unit": "%"
+      },
+      "NIA": {
+        "label": "Niacin (B3)",
+        "quantity": 258.24483987,
+        "unit": "%"
+      },
+      "VITB6A": {
+        "label": "Vitamin B6",
+        "quantity": 157.2325719576923,
+        "unit": "%"
+      },
+      "FOLDFE": {
+        "label": "Folate equivalent (total)",
+        "quantity": 123.21531633750003,
+        "unit": "%"
+      },
+      "VITB12": {
+        "label": "Vitamin B12",
+        "quantity": 254.42913656250005,
+        "unit": "%"
+      },
+      "VITD": {
+        "label": "Vitamin D",
+        "quantity": 3957.725703333334,
+        "unit": "%"
+      },
+      "TOCPHA": {
+        "label": "Vitamin E",
+        "quantity": 40.92802008104666,
+        "unit": "%"
+      },
+      "VITK1": {
+        "label": "Vitamin K",
+        "quantity": 23.267119103120002,
+        "unit": "%"
+      }
+    },
+    "digest": [
+      {
+        "label": "Fat",
+        "tag": "FAT",
+        "schemaOrgTag": "fatContent",
+        "total": 108.39007505474999,
+        "hasRDI": true,
+        "daily": 166.75396162269226,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Saturated",
+            "tag": "FASAT",
+            "schemaOrgTag": "saturatedFatContent",
+            "total": 48.38775201103276,
+            "hasRDI": true,
+            "daily": 241.9387600551638,
+            "unit": "g"
+          },
+          {
+            "label": "Trans",
+            "tag": "FATRN",
+            "schemaOrgTag": "transFatContent",
+            "total": 0.37632254219999994,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          },
+          {
+            "label": "Monounsaturated",
+            "tag": "FAMS",
+            "schemaOrgTag": null,
+            "total": 41.26923838364142,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          },
+          {
+            "label": "Polyunsaturated",
+            "tag": "FAPU",
+            "schemaOrgTag": null,
+            "total": 9.02359462356006,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Carbs",
+        "tag": "CHOCDF",
+        "schemaOrgTag": "carbohydrateContent",
+        "total": 382.74907408775005,
+        "hasRDI": true,
+        "daily": 127.58302469591668,
+        "unit": "g",
+        "sub": [
+          {
+            "label": "Carbs (net)",
+            "tag": "CHOCDF.net",
+            "schemaOrgTag": null,
+            "total": 360.18580599275003,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          },
+          {
+            "label": "Fiber",
+            "tag": "FIBTG",
+            "schemaOrgTag": "fiberContent",
+            "total": 22.563268095,
+            "hasRDI": true,
+            "daily": 90.25307238,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars",
+            "tag": "SUGAR",
+            "schemaOrgTag": "sugarContent",
+            "total": 76.59054108424999,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          },
+          {
+            "label": "Sugars, added",
+            "tag": "SUGAR.added",
+            "schemaOrgTag": null,
+            "total": 0.0,
+            "hasRDI": false,
+            "daily": 0.0,
+            "unit": "g"
+          }
+        ]
+      },
+      {
+        "label": "Protein",
+        "tag": "PROCNT",
+        "schemaOrgTag": "proteinContent",
+        "total": 137.0912572965,
+        "hasRDI": true,
+        "daily": 274.182514593,
+        "unit": "g"
+      },
+      {
+        "label": "Cholesterol",
+        "tag": "CHOLE",
+        "schemaOrgTag": "cholesterolContent",
+        "total": 197.33749999999998,
+        "hasRDI": true,
+        "daily": 65.77916666666665,
+        "unit": "mg"
+      },
+      {
+        "label": "Sodium",
+        "tag": "NA",
+        "schemaOrgTag": "sodiumContent",
+        "total": 5167.326320381681,
+        "hasRDI": true,
+        "daily": 215.30526334923672,
+        "unit": "mg"
+      },
+      {
+        "label": "Calcium",
+        "tag": "CA",
+        "schemaOrgTag": null,
+        "total": 2570.092190048882,
+        "hasRDI": true,
+        "daily": 257.0092190048882,
+        "unit": "mg"
+      },
+      {
+        "label": "Magnesium",
+        "tag": "MG",
+        "schemaOrgTag": null,
+        "total": 350.87511671911096,
+        "hasRDI": true,
+        "daily": 83.54169445693118,
+        "unit": "mg"
+      },
+      {
+        "label": "Potassium",
+        "tag": "K",
+        "schemaOrgTag": null,
+        "total": 4756.214919843108,
+        "hasRDI": true,
+        "daily": 101.19606212432144,
+        "unit": "mg"
+      },
+      {
+        "label": "Iron",
+        "tag": "FE",
+        "schemaOrgTag": null,
+        "total": 11.221879963079807,
+        "hasRDI": true,
+        "daily": 62.343777572665594,
+        "unit": "mg"
+      },
+      {
+        "label": "Zinc",
+        "tag": "ZN",
+        "schemaOrgTag": null,
+        "total": 15.70926861866109,
+        "hasRDI": true,
+        "daily": 142.811532896919,
+        "unit": "mg"
+      },
+      {
+        "label": "Phosphorus",
+        "tag": "P",
+        "schemaOrgTag": null,
+        "total": 3067.872823875,
+        "hasRDI": true,
+        "daily": 438.26754626785714,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin A",
+        "tag": "VITA_RAE",
+        "schemaOrgTag": null,
+        "total": 756.4469999999999,
+        "hasRDI": true,
+        "daily": 84.04966666666665,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Vitamin C",
+        "tag": "VITC",
+        "schemaOrgTag": null,
+        "total": 1.6260000000000001,
+        "hasRDI": true,
+        "daily": 1.8066666666666669,
+        "unit": "mg"
+      },
+      {
+        "label": "Thiamin (B1)",
+        "tag": "THIA",
+        "schemaOrgTag": null,
+        "total": 1.7118875972,
+        "hasRDI": true,
+        "daily": 142.65729976666668,
+        "unit": "mg"
+      },
+      {
+        "label": "Riboflavin (B2)",
+        "tag": "RIBF",
+        "schemaOrgTag": null,
+        "total": 3.4364866880000005,
+        "hasRDI": true,
+        "daily": 264.3451298461539,
+        "unit": "mg"
+      },
+      {
+        "label": "Niacin (B3)",
+        "tag": "NIA",
+        "schemaOrgTag": null,
+        "total": 41.3191743792,
+        "hasRDI": true,
+        "daily": 258.24483987,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin B6",
+        "tag": "VITB6A",
+        "schemaOrgTag": null,
+        "total": 2.0440234354499998,
+        "hasRDI": true,
+        "daily": 157.2325719576923,
+        "unit": "mg"
+      },
+      {
+        "label": "Folate equivalent (total)",
+        "tag": "FOLDFE",
+        "schemaOrgTag": null,
+        "total": 492.8612653500001,
+        "hasRDI": true,
+        "daily": 123.21531633750003,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Folate (food)",
+        "tag": "FOLFD",
+        "schemaOrgTag": null,
+        "total": 329.11126535,
+        "hasRDI": false,
+        "daily": 0.0,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Folic acid",
+        "tag": "FOLAC",
+        "schemaOrgTag": null,
+        "total": 96.25,
+        "hasRDI": false,
+        "daily": 0.0,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Vitamin B12",
+        "tag": "VITB12",
+        "schemaOrgTag": null,
+        "total": 6.106299277500001,
+        "hasRDI": true,
+        "daily": 254.42913656250005,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Vitamin D",
+        "tag": "VITD",
+        "schemaOrgTag": null,
+        "total": 593.6588555000001,
+        "hasRDI": true,
+        "daily": 3957.725703333334,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Vitamin E",
+        "tag": "TOCPHA",
+        "schemaOrgTag": null,
+        "total": 6.139203012156999,
+        "hasRDI": true,
+        "daily": 40.92802008104666,
+        "unit": "mg"
+      },
+      {
+        "label": "Vitamin K",
+        "tag": "VITK1",
+        "schemaOrgTag": null,
+        "total": 27.920542923744,
+        "hasRDI": true,
+        "daily": 23.267119103120002,
+        "unit": "\u00b5g"
+      },
+      {
+        "label": "Sugar alcohols",
+        "tag": "Sugar.alcohol",
+        "schemaOrgTag": null,
+        "total": 0.0,
+        "hasRDI": false,
+        "daily": 0.0,
+        "unit": "g"
+      },
+      {
+        "label": "Water",
+        "tag": "WATER",
+        "schemaOrgTag": null,
+        "total": 1571.0447701523221,
+        "hasRDI": false,
+        "daily": 0.0,
+        "unit": "g"
+      }
+    ]
+  },
+  "bookmarked": false,
+  "bought": false
+}
