@@ -1,0 +1,51 @@
+.bubble {
+    position: relative;
+    right: 0;
+    left: 0;
+    
+    display: inline-block;
+  }
+
+.form-control {
+    text-align: right;
+    font-weight: 400;
+    
+  }
+
+.panel-body {
+  margin-left: 15px;
+  text-align: left;
+  padding-left: 1px;
+  position: relative;
+  font-weight: 350;
+  color: darkslategray;
+ }
+
+#buttons {
+  
+  /* margin-left: 5px;
+  margin-right: 5px; */
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-color: rgba(248, 250, 250, 0.57);
+  text-align: left;
+  float: left;
+  width: 50%;
+
+}
+#button {
+  margin-right: 15px; 
+  text-align: left;
+  background-color: rgba(143, 213, 218, 0.467);
+  padding-left: 12px;
+  padding-right: 12px;
+  text-emphasis-color: black;
+  font-size: 80%;
+}
+
+.myFloat_Right {
+  float: right;
+  margin-left: 5px;
+ 
+}
