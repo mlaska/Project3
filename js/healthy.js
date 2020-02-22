@@ -110,6 +110,7 @@ function displayHealth(recipeObject)
        }
     
         console.log("David predict", result)
+        
     })
 
      //model equation 2
