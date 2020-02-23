@@ -1,6 +1,3 @@
-window.result1 = '';
-window.result2 = '';
-
 function displayHealth(recipeObject)
 {
 
@@ -82,7 +79,7 @@ function displayHealth(recipeObject)
     
 
     //model equation 1
-    d3.json("models/davidModel2.json").then((model)=> {
+    d3.json("models/davidModel.json").then((model)=> {
 
         // logistic regression equation = 
         // e^(B0 + B1X1 + B2X2 + B3X3...)/1 + e^(B0 + B1X1 + B2X2 + B3X3...)
@@ -106,14 +103,13 @@ function displayHealth(recipeObject)
        // if P >= 0.5 then recipe is healthy. else if p < 0.5 then recipe unhealthy
 
        if (predict >= 0.5) {
-            result1 = "Recommended"
+           var result = "Recommended"
        }
        else{
-           result1 = "Not Good for You"
+           var result = "Not Good for You"
        }
     
-        console.log("David predict", result1)
-        
+        console.log("David predict", result)
     })
 
      //model equation 2
@@ -141,17 +137,12 @@ function displayHealth(recipeObject)
        // if P >= 0.5 then recipe is healthy. else if p < 0.5 then recipe unhealthy
         
        if (predict >= 0.5) {
-           result2 = "Recommended"
-           swal("Congrats!", "This recipe is Healthy", "success");
+           var result = "Recommended"
        }
        else{
-           result2 = "Not Good for You"
-           swal("Ehhh...", "This recipe is Unhealthy", "warning");
+           var result = "Not Good for You"
        }
     
-        console.log("Cindy predict", result2)
+        console.log("Cindy predict", result)
     })
-
-    
 }
-

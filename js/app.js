@@ -40,12 +40,12 @@ function optionChanged()
   d3.json("data/AllRecipes.json").then((data)=> {
       
     var recipeObject = data[recipeIndex];
-  displayHealth(recipeObject);
+
   
   createIngredients(recipeObject); //in this file
   findIngredients(recipeObject); //in ingredient.js
   createGaugeCharts(recipeObject); //in cindygauge.js
-   //in healthy.js
+  displayHealth(recipeObject); //in healthy.js
   d3.select("#recipe-name").text(recipeObject.recipe.label);
   d3.select("#link").text(recipeObject.recipe.url).attr("href",recipeObject.recipe.url).attr("target", "_blank");
   

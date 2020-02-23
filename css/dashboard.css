@@ -1,0 +1,111 @@
+body {
+  text-align: inherit;
+  background-color: white;
+  padding-bottom: 10px;
+}
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.jumbotron {
+  text-align: center;
+  background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/colorful-organic-vegetables-in-paper-eco-shopping-royalty-free-image-1131005372-1565210333.jpg") center center / cover no-repeat;
+  color: rgb(203, 202, 202);
+  
+}
+
+p {
+  padding: 5px;
+  font-size: 15px;
+  color: rgb(248, 162, 2);
+  font-weight: 300;
+}
+
+#selDataset {
+  color: black;
+
+}
+
+h5{
+  color: rgb(85, 85, 85);
+}
+
+#gauge1 {
+  text-emphasis-style: gray;
+}
+
+/* The code styles the text */
+.gauge1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-shadow: 1px;
+  
+}
+
+.gauge2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-shadow: 1px;
+  
+}
+.gauge3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-shadow: 1px;
+  
+}
+.gauge4 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-shadow: 1px;
+  
+
+}
+
+#recipe-name {
+  text-align: right;
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 35px;
+  padding: 1px;
+  color: rgb(3, 79, 13);
+  text-shadow: green;
+  
+}
+
+a {
+  position: relative;
+  font-size: 10px;
+  text-align: right;
+  
+}
+
+#link > #href {
+  text-align: right;
+}
+
+.well {
+  background-color: rgba(209, 255, 200, 0.152);
+  font-weight: 300;
+  font-family: sans-serif;
+}
+
+/* The code styles the text at the bottom of the footer */
+footer  {
+  position: end;
+  right: 20;
+  bottom: 0;
+  left: 20;
+  padding: 5px;
+  background: #f8faf8;
+}
