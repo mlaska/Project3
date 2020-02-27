@@ -34,7 +34,7 @@ body {
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/images/wallpaper.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wallpaper.jpg");
     background-color: #cccccc;
     height: 95vh;
     width: 100vw;
@@ -128,4 +128,58 @@ body {
 .myFloat_Right {
   float: right;
   margin-left: 5px;
+}
+
+.hover-panel {
+  background-color: #E6E2DF;
+  color: #B2AAA4;
+  float: left;
+  height: 40vh;
+  width: 40vw;
+  margin: 0 10px 10px 0;
+  padding: 15px;
+}
+
+.hover-panel h3 {
+  font-family: tandelle-1, tandelle-2, Impact, Sans-serif, sans;
+  font-size: 38px;
+  line-height: 1;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+}
+
+.hover-panel p {
+  font-size: 12px;
+  width: 65%;
+}
+
+.hover-panel:hover {
+  background-color: #237ABE;
+}
+
+.hover-panel:hover h3 {
+  color: #FFF;
+  
+}
+
+.hover-panel:hover p {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.hover-panel {
+  background-image: url(../images/medveg.png);
+  background-position: 40vw 10vh;
+  background-repeat: no-repeat;
+}
+
+.hover-panel:hover {
+  background-position: 27vw 3vh;
+}
+
+.hover-panel {
+  -moz-transition: all 0.2s ease; /* FF3.7+ */
+    -o-transition: all 0.2s ease; /* Opera 10.5 */
+-webkit-transition: all 0.2s ease; /* Saf3.2+, Chrome */
+       transition: all 0.2s ease;
 }
