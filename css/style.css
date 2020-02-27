@@ -34,7 +34,7 @@ body {
   }
 
   .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/wallpaper.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("wallpaper.jpg");
     background-color: #cccccc;
     height: 95vh;
     width: 100vw;
@@ -159,7 +159,7 @@ body {
 
 .hover-panel:hover h3 {
   color: #FFF;
-  
+  text-shadow: rgba(0, 0, 0, 0.398438) 0px 0px 4px;
 }
 
 .hover-panel:hover p {
@@ -168,7 +168,7 @@ body {
 }
 
 .hover-panel {
-  background-image: url(../images/medveg.png);
+  background-image: url("medveg.png");
   background-position: 40vw 10vh;
   background-repeat: no-repeat;
 }
