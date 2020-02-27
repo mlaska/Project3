@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+</head>
+
+<body>
+  <div class="hero-image">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="color: green;">Team Healthy
+          </a>
+        </div>
+        <div class="col-md-6"></div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Recipe Dashboard</a></li>
+          <li><a href="tableau.html">Recipe Data</a></li>
+          <li><a href="tableau2.html">Machine Learning</a></li>
+          <li class="active"><a href="data.html">Code</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="row">
+        <div class="col-md-6">
+          <a class="hover-panel">
+            <h3>Building the Data</h3>
+            <p>We started with the use of Python and an API to pull recipe data.</p>
+            <p>In python defintions were made to search groups of 100 recipes and then parse them into one JSON file per recipe. This method creates robustness to ensure future searches resulting in a known recipe would not create duplicates.</p>
+            <p>After a new recipe is introduced to the RawData folder, a definition is run to combine all the recipes into a single file to be consumed by the HTML/Javascript</p>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <a class="hover-panel">
+            <h3>Our Models</h3>
+            <p>Cindy created one model per Carbs, Cholesterol, Fat, and Sugar. Unhealty was defined as Carbs >15, Cholesterol >300, Fat >77, Sugar >25
+               </p>
+            <p>Ingris </p>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6">
+          <a class="hover-panel">
+            <h3>Machine Learning</h3>
+            <p>The goal of this project was to run some machine learning to teach models to idenitfy recipes that were pulled that would be considered Healthy vs. Unhealthy</p>
+            <p>Each model used a recipe dataset identified by the API.  </p>
+            <p>Regression Models: Models were generated and then dupmed to a pckl file and loaded later to predict many recipes</p>
+            <p>Neural Network Models: A model was also generated using tensorflow to create an neural network </p>
+          </a>
+        </div>
+        <div class="col-xs-6">
+          <a class="hover-panel">
+            <h3>More Models</h3>
+            <p>Regression models:</p>
+            <p>Model: Training utilizing tags idenitfied with each recipe in the API. For the Recipe to be considered healthy, the tag must contain "Balanced" </p>
+            <p>Model: Training utilizing words in the recipe name. </p>
+            
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</body>
+<footer style="font-size: small; text-align: center">
+  Copyright &#169; Recommended Team!. Some Rights Reserved
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+</html>
