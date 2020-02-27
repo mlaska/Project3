@@ -87,6 +87,7 @@ function createIngredientsEdit()
 
   PANEL.enter()
   .append("form")
+  .attr("class", "form-control2")
   .merge(PANEL)
   .each(function(d,i) {
 
@@ -98,11 +99,11 @@ function createIngredientsEdit()
     .remove();
     SUBPANEL.append("input")   //nested enter append #2
     .merge(SUBPANEL)
-    .attr("class", "form-control")
+    .attr("class", "form-control3")
     .attr("id", i) 
     .attr("name", "ingredient-form")
     .attr("type", "text")
-    .attr("value", d.weight);
+    .attr("value", Math.round(parseFloat(d.weight)));
     SUBPANEL.exit()
     .remove();
     
