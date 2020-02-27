@@ -10,55 +10,57 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  
 </head>
 
 <body>
   <div class="hero-image">
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="# ">Logo
-          <!--<img src="/images/Vegetarian.svg" alt="">-->
-        </a>
-      </div> 
-      <div class="col-md-9 text-right"></div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="dashboard.html">Dashboard</a></li>
-      </ul>
-    </div>
-  </nav>
-  <div class="container-fluid col-10 col-md-6 col-sm-4" > <!-- main container starts -->
-    <form>
-      <div class="input-group"> 
-        <input id="input" class="form-control" placeholder="Search for a recipe to analyze">
-        <div class="input-group-btn">
-          <button class="btn btn-default" type="button" onclick="onClick()">
-            <i class="glyphicon glyphicon-search"></i>   
-          </button>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="# " style="color: green;">Team Healthy
+          </a>
         </div>
+        <div class="col-md-6"></div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="Index.html">Home</a></li>
+          <li><a href="dashboard.html">Recipe Dashboard</a></li>
+          <li><a href="tableau.html">Recipe Data</a></li>
+          <li><a href="tableau2.html">Machine Learning</a></li>
+          <li><a href="data.html">Code</a></li>
+        </ul>
       </div>
-    </form>
+    </nav>
+    <div class="container-fluid col-10 col-md-6 col-sm-4">
+      <!-- main container starts -->
+      <form>
+        <div class="input-group">
+          <input id="input" class="form-control" placeholder="Search for a recipe to analyze">
+          <div class="input-group-btn">
+            <button class="btn btn-default" type="button" onclick="onClick()">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
- 
-    </div>
 
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  
-
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-  <!--<script src="./js/app.js"></script>-->
-  <script src="./js/auto.js"></script>
-  <script src="./js/healthy.js"></script>
-  <script src="./js/app2.js"></script>
-
-  <footer style="font-size: small; text-align: center"> 
-    Copyright &#169; Recommended Team!. Some Rights Reserved
-  </footer>
+  </div>
 </body>
+<footer style="font-size: small; text-align: center;">
+  Copyright &#169; Recommended Team!. Some Rights Reserved
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<!--<script src="./js/app.js"></script>-->
+<script src="./js/auto.js"></script>
+<script src="./js/healthy.js"></script>
+<script src="./js/app2.js"></script>
 
 </html>
