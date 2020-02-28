@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Recipe Project</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/game.css">
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel=”stylesheet” href=” sweetalert.css”>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <div class="hero-image">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="color: green;">Team Healthy
+          </a>
+        </div>
+        <div class="col-md-6"></div>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dashboard.html">Recipe Dashboard</a></li>
+          <li><a href="tableau.html">Recipe Data</a></li>
+          <li><a href="tableau2.html">Machine Learning</a></li>
+          <li class="active"><a href="data.html">Code</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <div class="row">
+        
+        <div id="box0" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div id="box1" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div id="box2" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div class="welcome col-md-2">
+          <a class="welcome">
+            <h3>Welcome</h3>
+            <p>Try and find 3 HEALTHY foods </p>
+            <p>by clicking on the images.</p>
+            <br>
+            <p>Fair warning, some random combinations may have less than 3 healthy ones.</p>
+          </a>
+        </div>
+      </div>
+    <br>
+      <div class="row">
+        <div id="box3" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div id="box4" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div id="box5" class="image col-md-1"> </div>
+        <div class="col-md-2"></div>
+        <div class="welcome col-md-2">
+          <a class="welcome">
+            <h3>Switch Models</h3>
+            <p>Try your luck with </p>
+            <p>a different predict model.</p>
+            
+              <div class="well-sm">
+                <h5>Models </h5>
+                <select id="selDataset">
+                  <option class="model" value="cindy">Cindy's</option>
+                  <option class="model" value="david">David's</option>
+                </select>
+              </div>
+        
+          </a>
+          
+        </div>
+      </div>
+    <br>
+    </section>
+
+  </div>
+</body>
+<footer style="font-size: small; text-align: center">
+  Copyright &#169; Recommended Team!. Some Rights Reserved
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/game.js"></script>
+
+</html>
