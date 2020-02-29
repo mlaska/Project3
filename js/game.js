@@ -1,3 +1,13 @@
+document.addEventListener('click', function (event) {
+
+    // If the clicked element doesn't have the right selector, bail
+    //if (totalCount == 0) location.reload();
+    if(event.target.value == "OK") console.log("yaaas")
+    // Log the clicked element in the console
+	console.log(event.target);
+
+}, false);
+
 window.yesCount = 0;
 window.totalCount = 0;
 
@@ -139,8 +149,10 @@ function initPredict() {
         }
         
         //Standardize data by dividing nutrition values by the yield(servings) 
-        newX = x.map(d => d / recipeObject[0].recipe.yield);
-        
+         try{newX = x.map(d => d / recipeObject[0].recipe.yield);       
+        }
+        catch{newX = 1
+        }
         modelPredict(newX);
 
     })
@@ -173,7 +185,8 @@ function initPredict() {
             var exp_total = +inter + +BX_total 
             
             var predict = Math.exp(exp_total) /(1+Math.exp(exp_total))
-            var recipeName = recipeObject[0].recipe.label
+            try {var recipeName = recipeObject[0].recipe.label}
+            catch{var recipeName = "Something Special"}
             // if P >= 0.5 then recipe is healthy. else if p < 0.5 then recipe unhealthy
             
 
@@ -232,7 +245,8 @@ function initPredict() {
             var exp_total = +inter + +BX_total 
             
             var predict = Math.exp(exp_total) /(1+Math.exp(exp_total))
-            var recipeName = recipeObject[0].recipe.label
+            try{var recipeName = recipeObject[0].recipe.label}
+            catch{var recipeName = "Something Good"}
             // if P >= 0.5 then recipe is healthy. else if p < 0.5 then recipe unhealthy
             
 
